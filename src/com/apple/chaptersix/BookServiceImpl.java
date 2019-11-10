@@ -5,13 +5,12 @@ import java.awt.*;
 public class BookServiceImpl implements BookService{
     @Override
     public void makebooks() {
-        Book book = new Book('mch001','mch',89);
-        Book magazine = new Magazine('mch002','mch02',89,'2019.11.02');
+        System.out.println("make the book");
 
     }
 
     @Override
     public void showbooks() {
-
+        System.out.println("show the book");
     }
 }
